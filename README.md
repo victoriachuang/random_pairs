@@ -21,3 +21,5 @@ Gene Belcher
 ["Bob Belcher", "Gene Belcher"]
 ["Linda Belcher", "Tina Belcher"]
 ```
+
+In the event that there is an odd number of names, there will be an array containing one string.
