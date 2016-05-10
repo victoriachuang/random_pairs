@@ -1,6 +1,11 @@
-students = []
+if ARGV.empty?
+	puts 'Use: ruby script.rb FILE_NAME'
+	exit
+end
 
 name_list = File.open(ARGV[0]).read
+
+students = []
 
 name_list.each_line do |line|
 	line = line.delete("\n")
